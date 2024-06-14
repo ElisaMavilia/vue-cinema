@@ -1,14 +1,25 @@
 <template>
-  <h1 class="text-center">Ciao</h1>
-  <i class="fa fa-solid fa-home"></i>
+  <HeaderComponent />
+  <main>
+    <HeroComponent />
+  </main>
 </template>
 
 <script>
+import HeaderComponent from './components/HeaderComponent.vue';
+import HeroComponent from './components/HeroComponent.vue';
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+        HeaderComponent,
+        HeroComponent
+    }
   }
 </script>
 
 <style lang="scss" scoped>
-
+main{
+    height: 100vh;
+    background-color: black;
+}
 </style>
