@@ -25,8 +25,8 @@
         align-items: center;
         color: white;
         text-align: center;
-    }
-  #hero::after {
+
+    #hero::after {
     content: "";
     position: absolute;
     top: 0;
@@ -52,4 +52,6 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
+    }
+  
 </style>

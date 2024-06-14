@@ -66,7 +66,7 @@ header{
    
 nav{
     height: 90px;
-    background-color: #cc012ab5;
+    background-color: #c40a2ff5;
     color: white !important;
     border-radius: 5px;
     /* position: fixed; */
