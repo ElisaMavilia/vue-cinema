@@ -1,6 +1,6 @@
 <template>
       <header class="bg-black text-white">
-        <nav class=" container navbar navbar-expand-lg px-4 text-white">
+        <nav class=" mt-3 container navbar navbar-expand-lg px-4 text-white">
             <div class="container-fluid text-white">
                 <router-link to="/" class="navbar-brand text-white">
                    Cinema Bianca
