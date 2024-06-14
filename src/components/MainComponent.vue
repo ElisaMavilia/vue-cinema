@@ -1,13 +1,21 @@
 <template>
     <main>
-Qui vanno le card della programmazione
+        <div class="container ps-5">
+            Qui vanno le card della programmazione
+        </div>
 
+    
     </main>
 </template>
 
 <script>
+
+
     export default {
         name: 'MainComponent',
+        components: {
+            
+        }
     }
 </script>
 
