@@ -1,8 +1,9 @@
 <template>
+  
   <HeaderComponent />
   <HeroComponent />
-  <MainComponent />
-  <router-view></router-view>
+  <router-view></router-view> 
+  <!-- <MainComponent /> -->
   <FooterComponent />
 </template>
 

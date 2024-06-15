@@ -27,6 +27,7 @@ section{
        width: 100%;
        color: white;
        padding: 20px;
+       border-left: 4px solid #c40a2ff5;
 
     img{
         width: 80%;

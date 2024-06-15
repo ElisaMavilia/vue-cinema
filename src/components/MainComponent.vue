@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container ps-5">
-            Qui vanno le card della programmazione
+            Qui vanno le card della homepage
         </div>
 
     
