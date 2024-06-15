@@ -2,7 +2,7 @@
     <section id="hero">
     <div class="hero-content">
       <h1>Cinema Bianca</h1>
-      <p>Your Home Teather</p>
+      <p>Sentirsi a casa</p>
     </div>
   </section>
 </template>
