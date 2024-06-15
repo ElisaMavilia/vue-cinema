@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse" :class="{ 'show': show }" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item" v-for="(link, index) in menuItems" :key="index">
-                            <router-link :to="{ name: link.routeName }" class="nav-link text-white" active-class="active">
+                            <router-link :to="{ name: link.routeName }" class="nav-link text-white" active-class="active" id="header-link">
                                 {{ link.label }}
                             </router-link>
                         </li>
@@ -64,22 +64,51 @@
 
 header{
    
-nav{
-    height: 90px;
+    nav {
+    height: 55px;
     background-color: #c40a2ff5;
     color: white !important;
     border-radius: 5px;
-    /* position: fixed; */
-    top: 0;
+    position: fixed;
     width: 100%;
     z-index: 3000;
-    position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
     max-width: 1200px;
-}
+    display: flex;
+    align-items: center;
 
+    .navbar-brand {
+      padding-top: 0; 
+      padding-bottom: 0;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      margin: 0; 
+
+      .nav-item {
+        .nav-link {
+          color: white;
+          padding: 15px 15px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          transition: border-bottom 0.3s ease, color 0.3s ease;
+
+          &:hover {
+            color: white;
+            border-bottom: 4px solid white;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 </style>
