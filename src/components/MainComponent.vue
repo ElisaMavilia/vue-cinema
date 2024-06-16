@@ -2,6 +2,7 @@
     <main>
         <div class="container ps-5">
             Qui vanno le card della homepage
+            <CardComponent />
         </div>
 
     
@@ -10,11 +11,11 @@
 
 <script>
 
-
+    import CardComponent from './CardComponent.vue';
     export default {
         name: 'MainComponent',
         components: {
-            
+            CardComponent,
         }
     }
 </script>
