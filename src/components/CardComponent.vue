@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section class="pb-5">
         <div class="card mt-4 p-4">
             <div class="row g-0">
                 <div class="col-md-4">
@@ -45,6 +45,7 @@ import { store } from '../store';
 <style lang="scss" scoped>
 .card{
     max-width: 540px;
+
 
     img{
         aspect-ratio: 1/1;
