@@ -21,7 +21,7 @@
 <style lang="scss" scoped>
 main{
     width: 100%;
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.918);
     color: white;
 }
 </style>
