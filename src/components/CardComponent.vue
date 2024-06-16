@@ -3,18 +3,18 @@
         <div class="card mt-4 p-4">
             <div class="row g-0">
                 <div class="col-md-4">
-                <img src="/public/images/placeholder.png" class="img-fluid rounded-start mt-2" alt="...">
+                <img src="/images/placeholder.png" class="img-fluid rounded-start mt-2" alt="...">
              </div>
         <div class="col-md-8">
-        <div class="card-body d-flex flex-column ps-4 ms-4 bg-light">
+        <div class="card-body d-flex flex-column ps-4 ms-4 text-white">
         <h5 class="card-title">Titolo</h5>
-        <small class="card-text">Durata</small>
-        <small class="card-text">Genere</small>
-        <small class="card-text">Regia</small>
-        <small class="card-text">Recensioni</small>
-        <small class="card-text">Orario/data</small>
-        <small class="card-text">Sala</small>
-        <small class="card-text">prezzo</small>
+        <small class="card-text">Durata:</small>
+        <small class="card-text">Genere:</small>
+        <small class="card-text">Regia:</small>
+        <small class="card-text">Recensioni:</small>
+        <small class="card-text">Orario/data:</small>
+        <small class="card-text">Sala:</small>
+        <small class="card-text">prezzo:</small>
       </div>
       <button type="button" class="btn btn-danger mt-4 ms-4">Scheda film</button>
     </div>
@@ -44,10 +44,14 @@ import { store } from '../store';
 <style lang="scss" scoped>
 .card{
     max-width: 540px;
-
-
+    background-color: #060b16;
+    .card-body{
+        border: 1px solid grey;
+    }
     img{
         aspect-ratio: 1/1;
     }
+   
 }
+
 </style>

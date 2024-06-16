@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container ps-5 text-uppercase">
-            <h3 class="pt-4">I film di oggi</h3>
+            <h3 class="pt-5">In programmazione oggi</h3>
             <CardComponent />
         </div>
     </main>
@@ -21,7 +21,8 @@
 <style lang="scss" scoped>
 main{
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.918);
+    background-color: #060b16;
     color: white;
+    
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="main">
 
     </div>
 </template>
@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#main{
+    background-color: #051025;
+}
 
 </style>

@@ -1,9 +1,29 @@
 <template>
      <section >
         <div id="contact" class="container ps-5">
-            <h3 class="text-uppercase pb-4">Contattaci</h3>
+            <h3 class="text-uppercase pt-4 pb-4">Contattaci</h3>
+            <div class="row">
+        <form class="col-12 text-start text-white">
+            <div class="mb-3">
+                <input type="text" class="form-control border-0 border-bottom" placeholder="Nome" v-model="name" required>
+                
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control border-0 border-bottom" placeholder="Cognome" v-model="name" required>
+                
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control border-0 border-bottom" placeholder="Email" v-model="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message">Messaggio</label>
+                <textarea id="message" class="form-control border-0 border-bottom" cols="30" rows="10" v-model="message"></textarea>
+            </div>
+            <button class="btn btn-lg btn-danger text-white" type="submit">Invia</button>
+        </form>
+         </div>
         </div>
-     </section>
+    </section>
 </template>
 
 <script>
@@ -27,13 +47,15 @@ import { store } from '../store';
 
 section{
     width: 100%;
-    background-color: black ;
+    background-color: #060b16 ;
     #contact{
-       background-color: rgba(0, 0, 0, 0.865);
+       background-color: #060b16;
        width: 100%;
        color: white;
        padding: 20px;
        border-left: 4px solid #c40a2ff5;
     }
+    
 }
 </style>
+
