@@ -12,7 +12,7 @@
         <small class="card-text">Genere</small>
         <small class="card-text">Regia</small>
         <small class="card-text">Recensioni</small>
-        <small class="card-text">Oraio/data</small>
+        <small class="card-text">Orario/data</small>
         <small class="card-text">Sala</small>
         <small class="card-text">prezzo</small>
       </div>
