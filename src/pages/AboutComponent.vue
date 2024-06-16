@@ -1,7 +1,7 @@
 <template>
     <section>
         <div id="about" class="container ps-5">
-            <h2 class="pb-3" >La nostra storia</h2>
+            <h2 class="pb-4 text-uppercase" >La nostra storia</h2>
            
         <p>Fondato nel 1960, il Cinema Bianca è stato un punto di riferimento per gli amanti del cinema nella nostra comunità per oltre sei decenni. Situato nel cuore della città, il nostro cinema ha ospitato numerose première, eventi speciali e proiezioni esclusive. Con un'attenzione particolare alla qualità dell'esperienza cinematografica, il Cinema Bianca è rinomato per il suo schermo all'avanguardia, il suono surround di alta qualità e i comodi posti a sedere.</p>
 
