@@ -55,6 +55,9 @@ section{
        padding: 20px;
        border-left: 4px solid #c40a2ff5;
     }
+    input,textarea{
+        background-color: lightgrey;
+    }
     
 }
 </style>
