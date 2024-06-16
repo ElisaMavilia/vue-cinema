@@ -2,7 +2,7 @@
     <main>
         <div class=" container ps-5 text-uppercase">
             <div class="d-flex justify-content-between align-content-center align-items-center">
-                <span><h3 class="pt-5">In programmazione oggi</h3></span>
+                <span><h3 class="pt-5">In programmazione questa settimana</h3></span>
                 <div class="text-white">
                     <select class="form-select " aria-label="Default select example">
                     <option selected>Seleziona la fascia oraria</option>
