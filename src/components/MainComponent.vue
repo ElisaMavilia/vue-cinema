@@ -4,8 +4,6 @@
             Qui vanno le card della homepage
             <CardComponent />
         </div>
-
-    
     </main>
 </template>
 

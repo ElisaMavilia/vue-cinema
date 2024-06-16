@@ -1,12 +1,13 @@
 <template>
-    <div>
-
-    </div>
+     <div>
+        <h1>Contattaci</h1>
+     </div>
 </template>
 
 <script>
-import { computed } from 'vue';
+
 import { store } from '../store';
+
     export default {
         name: 'ContactComponent',
         data() {

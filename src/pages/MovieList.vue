@@ -7,15 +7,19 @@
 <script>
 import { store } from '../store';
 import CardComponent from '../components/CardComponent.vue';
-    export default {
-        name: 'MovieList',
-        component: CardComponent,
+export default {
+    name: 'MovieList',
+    components: {
+        CardComponent
     },
     data() {
         return {
-            store
+            store,
+          
         }
     }
+}
+
 </script>
 
 <style lang="scss" scoped>
