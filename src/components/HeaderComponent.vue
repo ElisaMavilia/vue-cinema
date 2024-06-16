@@ -5,12 +5,12 @@
                 <router-link to="/" class="navbar-brand text-white">
                    Cinema Bianca
                 </router-link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                     @click="show = !show">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class=" text-white navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" :class="{ 'show': show }" id="navbarNav">
+                <div class="text-white collapse navbar-collapse" :class="{ 'show': show }" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item" v-for="(link, index) in menuItems" :key="index">
                             <router-link :to="{ name: link.routeName }" class="nav-link text-white" active-class="active" id="header-link">

@@ -2,7 +2,7 @@
     <section id="hero">
     <div class="hero-content">
       <h1>Cinema Bianca</h1>
-      <p>Sentirsi a casa</p>
+      <p>Your utimate movie experience</p>
     </div>
   </section>
 </template>
