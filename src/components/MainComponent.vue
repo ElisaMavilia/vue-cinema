@@ -1,7 +1,7 @@
 <template>
     <main>
         <div class="container ps-5 text-uppercase">
-            <h2 class="pt-4">I film di oggi</h2>
+            <h3 class="pt-4">I film di oggi</h3>
             <CardComponent />
         </div>
     </main>

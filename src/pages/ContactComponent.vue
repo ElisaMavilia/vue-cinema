@@ -1,7 +1,7 @@
 <template>
      <section >
         <div id="contact" class="container ps-5">
-            <h2 class="text-uppercase pb-4">Contattaci</h2>
+            <h3 class="text-uppercase pb-4">Contattaci</h3>
         </div>
      </section>
 </template>
