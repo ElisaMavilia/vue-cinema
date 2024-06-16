@@ -11,12 +11,8 @@
         <small class="card-text">Durata:</small>
         <small class="card-text">Genere:</small>
         <small class="card-text">Regia:</small>
-        <small class="card-text">Recensioni:</small>
-        <small class="card-text">Orario/data:</small>
-        <small class="card-text">Sala:</small>
-        <small class="card-text">prezzo:</small>
       </div>
-      <button type="button" class="btn btn-danger mt-4 ms-4">Scheda film</button>
+      <button type="button" class="btn btn-danger mt-4 ms-4">Scheda film</button><!-- qui va inserita la rotta routerlink -->
     </div>
   </div>
 </div>

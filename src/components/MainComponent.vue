@@ -40,7 +40,10 @@ main{
         border: 1px solid #c40a2ff5;
         background-color: #060b16;
         color: white;
+
+    select:focus{
+        color: white;
     }
-    
+    }
 }
 </style>
