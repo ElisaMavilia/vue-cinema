@@ -5,10 +5,10 @@
                 <span><h3 class="pt-5">In programmazione questa settimana</h3></span>
                 <div class="text-white">
                     <select class="form-select " aria-label="Default select example">
-                    <option selected>Seleziona la fascia oraria</option>
-                    <option value="1">Pomeriggio</option>
-                    <option value="2">Sera</option>
-                    <option value="3">Notte</option>
+                    <option selected>Seleziona qualcosa</option>
+                    <option value="1">uno</option>
+                    <option value="2">due</option>
+                    <option value="3">tre</option>
                 </select>
                 </div>
                 
