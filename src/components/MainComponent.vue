@@ -1,8 +1,12 @@
 <template>
     <main>
-        <div class=" container ps-5 text-uppercase">
-            <div class="d-flex justify-content-between align-content-center align-items-center">
-                <span><h3 class="pt-5">In programmazione questa settimana</h3></span>
+        <!-- <div class="container">
+            <h2 class="">In Programmazione questa settimana</h2>
+            <div class="row">
+            <div class="col-12 col-md-3 col-lg-6" v-for="movie in movies" :key="movie.id">
+     
+   </div>
+ </div>
                 <div class="text-white">
                     <select class="form-select " aria-label="Default select example">
                     <option selected>Seleziona qualcosa</option>
@@ -12,21 +16,40 @@
                 </select>
                 </div>
                 
-            </div>
+            </div> -->
            
-            <CardComponent />
-        </div>
+            <CardComponent/> 
+    
     </main>
 </template>
 
 <script>
 
     import CardComponent from './CardComponent.vue';
+    import { store } from '../store';
+    import axios from 'axios';
     export default {
         name: 'MainComponent',
+        data() {
+            return {
+                store,
+                movies : [],
+            }
+        },
         components: {
             CardComponent,
-        }
+        },
+        methods: {
+            getData() {
+                axios.get(`${this.store.apiBaseUrl}/projections`).then((res) =>  {
+                console.log(res.data);
+                this.movies = res.data.results;
+      });
+    },
+},
+mounted() {
+  this.getData();
+}
     }
 </script>
 

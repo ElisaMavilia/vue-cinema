@@ -5,19 +5,19 @@
             <div class="row">
         <form class="col-12 text-start text-white">
             <div class="mb-3">
-                <input type="text" class="form-control border-0 border-bottom" placeholder="Nome" v-model="name" required>
+                <input type="text" class="form-control border-0 border-bottom" placeholder="Nome"  required>
                 
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control border-0 border-bottom" placeholder="Cognome" v-model="name" required>
+                <input type="text" class="form-control border-0 border-bottom" placeholder="Cognome"  required>
                 
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control border-0 border-bottom" placeholder="Email" v-model="email" required>
+                <input type="email" class="form-control border-0 border-bottom" placeholder="Email"  required>
             </div>
             <div class="mb-3">
                 <label for="message">Messaggio</label>
-                <textarea id="message" class="form-control border-0 border-bottom" cols="30" rows="10" v-model="message"></textarea>
+                <textarea id="message" class="form-control border-0 border-bottom" cols="30" rows="10" required></textarea>
             </div>
             <button class="btn btn-lg btn-danger text-white" type="submit">Invia</button>
         </form>

@@ -18,11 +18,7 @@ const router = createRouter({
         name: "chi-siamo",
         component: AboutComponent,
       },
-      {
-        path: "/programmazione",
-        name: "programmazione",
-        component: SchedulingComponent,
-      },
+      
       {
         path: "/contattaci",
         name: "contattaci",

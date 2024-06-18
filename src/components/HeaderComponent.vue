@@ -1,14 +1,14 @@
 <template>
-      <header class="bg-black text-white">
-        <nav class=" mt-3 container navbar navbar-expand-lg px-4 text-white">
+    <header class="bg-black text-white">
+        <nav class="mt-3 container navbar navbar-expand-lg px-4 text-white">
             <div class="container-fluid text-white">
                 <router-link to="/" class="navbar-brand text-white">
-                   Cinema Bianca
+                    Cinema Bianca
                 </router-link>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                     @click="show = !show">
-                    <span class=" text-white navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="text-white collapse navbar-collapse" :class="{ 'show': show }" id="navbarNav">
                     <ul class="navbar-nav">
@@ -17,10 +17,9 @@
                                 {{ link.label }}
                             </router-link>
                         </li>
-
                     </ul>
-                    <div class="ms-auto">
-                        <a href="http://localhost:8000" class="nav-link">
+                    <div id="restricted-area" class="ms-auto">
+                        <a href="http://localhost:8000" class="nav-link text-white">
                             <i class="fa-solid fa-user"></i> <span>Area Riservata</span>
                         </a>
                     </div>
@@ -40,10 +39,7 @@
                     label: 'Home',
                     routeName: 'home'
                 },
-                {
-                    label: 'Programmazione',
-                    routeName: 'programmazione'
-                },
+                
                 {
                     label: 'Chi siamo',
                     routeName: 'chi-siamo'
@@ -109,6 +105,15 @@ header{
         }
       }
     }
+  }
+  @media (max-width: 1200px) {
+    .fa-user {
+        display: none;
+    }
+#restricted-area {
+    text-align: center;
+    vertical-align: middle;
+}
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <section id="hero">
     <div class="hero-content">
-      <h1>Cinema Bianca</h1>
+      <h1>Cinema Sala</h1>
       <p>Your utimate movie experience</p>
     </div>
   </section>
@@ -16,7 +16,7 @@
 <style lang="scss" scoped>
     #hero{
         width: 100%;
-        height: 550px;
+        min-height: 700px;
         background-image: url(../public/images/luxe-1920-1.jpg);
         background-size: cover;
         background-position: center;
@@ -33,7 +33,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); // Overlay with transparency
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
   .hero-content {
